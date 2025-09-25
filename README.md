@@ -71,6 +71,9 @@ Experiment to find the best settings for your lighting and obstacle sizes.
 5. **Compute centroid**; if it’s left of center → turn right, else turn left.
 6. **No obstacle** → drive forward.
 
+Note:
+- Remove cv2.imshow() for headless usage
+- Use a systemd script to auto run on boot
 
 ## Troubleshoot common issues
 
