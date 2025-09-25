@@ -2,7 +2,7 @@
 """
 Obstacle‐avoiding rover for Raspberry Pi 3B + Pi Cam + L298N + 4× DC motors.
 
-Wiring (example GPIO assignments; change as needed):
+Wiring:
 
   Left motor channel (drives 2 motors in parallel):
     IN1 (forward):     GPIO17
